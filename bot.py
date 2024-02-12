@@ -31,8 +31,8 @@ months = ['January', 'February', 'March', 'April', 'May', 'June',
 channels = [('کانال اسپانسر', 'rubikalib'),
             ('کانال اطلاع‌رسانی', 'bots_notifs')]
 
-bot = Client('BirthHub', api_id=3701867,
-             api_hash="62497d2e9144cff623aa86e92b40d75f")
+bot = Client('BirthHub', api_id=ID,
+             api_hash=HASH)
 
 
 @bot.on_message(filters.text)
